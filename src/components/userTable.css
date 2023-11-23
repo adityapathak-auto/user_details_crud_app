@@ -1,0 +1,7 @@
+.table-img{
+    width: 25px;
+    display: inline;
+    
+    filter: invert(100%);
+    cursor: pointer;
+}

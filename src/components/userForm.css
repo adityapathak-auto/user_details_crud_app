@@ -1,0 +1,52 @@
+input{
+    margin-top: 18px;
+    padding: 9px 0;
+    width: 190px;
+}
+
+option{
+    margin-top:-12px ;
+}
+
+.diff{
+   border: none;
+   border-bottom: 1px solid white;
+   appearance: none;
+    /* Adjust as needed */
+    /* background-image: linear-gradient(45deg, transparent 50%, white 50%), linear-gradient(135deg, white 50%, transparent 50%); */
+    /* background-position: calc(100% - 1em) calc(0.5em), calc(100% - 0.5em) calc(0.5em);
+    background-size: 0.5em 0.5em, 0.5em 0.5em; */
+    /* background-color: wh; */
+    background-repeat: no-repeat;
+
+    color: white;
+    margin-top: -2px;
+    
+    width: 190px;
+    text-align: start;
+    padding: 10px 0;
+}
+.diff:active{
+    border: none;
+    border-bottom:1px solid lightblue ;
+}
+
+.btn-s{
+    display: block;
+    margin: 10px 20px;
+    background: rgb(129,199,207);
+background: linear-gradient(90deg, rgba(129,199,207,1) 0%, rgba(28,172,228,1) 96%);
+color: white;
+margin: 50px;
+cursor: pointer;
+
+}
+.main-body{
+    display: flex;
+background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+align-items: center;
+
+
+
+}
